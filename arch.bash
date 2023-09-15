@@ -4,13 +4,13 @@ arch=$(uname -m)
 
 if [ "$arch" == "aarch64" ]; then
     echo "Host architecture is arm64."
-    mv KosmaPanelWebManagerARM64 KosmaPanelWebManager 
+    mv KosmaPanelARM64 KosmaPanel 
 elif [ "$arch" == "armv7l" ]; then
     echo "Host architecture is arm32."
-    mv KosmaPanelWebManagerARM32 KosmaPanelWebManager
+    mv KosmaPanelARM32 KosmaPanel
 elif [ "$arch" == "x86_64" ]; then
     echo "Host architecture is amd64."
-    mv KosmaPanelWebManager64 KosmaPanelWebManager
+    mv KosmaPanel64 KosmaPanel
 else
     echo "Unsupported architecture: $arch"
     exit 1
