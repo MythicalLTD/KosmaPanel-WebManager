@@ -1,2 +1,2 @@
 # KosmaPanel-WebManager
-The website manager for KosmaPanel
+The website manager for KosmaPanel.
